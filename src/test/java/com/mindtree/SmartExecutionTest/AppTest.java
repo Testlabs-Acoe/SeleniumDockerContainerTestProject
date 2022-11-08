@@ -62,10 +62,10 @@ public class AppTest {
 	public void login() {
 
 		System.out.println("print from test");
-		driver.get("https://www.amazon.in/");
+		driver.get("https://www.mindtree.com/");
 		driver.manage().window().maximize();
-		driver.findElement(By.name("q")).sendKeys("mindtree");
-		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+		//driver.findElement(By.name("q")).sendKeys("mindtree");
+		//driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 		
 		
 		
